@@ -15,7 +15,6 @@
 
   border: 1px solid var(--main-grey);
   border-right-width: 0;
-  background-color: darkgreen;
 }
 .item:last-child {
   border-right-width: 1px;

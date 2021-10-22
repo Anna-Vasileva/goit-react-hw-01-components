@@ -1,0 +1,25 @@
+.true {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.false {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+.name {
+  padding-left: 10px;
+}
+.avatar {
+  padding-left: 10px;
+  border-radius: 20%;
+}
+.item {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
