@@ -1,15 +1,18 @@
+.friend {
+  margin-top: 20px;
+}
 .true {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: green;
+  background-color: var(--main-green);
 }
 
 .false {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: red;
+  background-color: var(--main-red);
 }
 .name {
   padding-left: 10px;
@@ -17,9 +20,19 @@
 .avatar {
   padding-left: 10px;
   border-radius: 20%;
+  width: 100px;
+  height: auto;
 }
 .item {
+  margin-left: 10px;
+  margin-bottom: 10px;
   padding-left: 10px;
   display: flex;
+  width: 200px;
   align-items: center;
+
+  box-shadow: 0 0 10px -3px var(--main-shadow-color);
+}
+.item:last-child {
+  margin-bottom: 0;
 }

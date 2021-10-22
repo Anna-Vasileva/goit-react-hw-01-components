@@ -15,8 +15,12 @@ code {
 :root {
   --main-grey: grey;
   --main-light-grey: lightgrey;
-  --main-dark-grey: darkgray;
+  --main-dark-grey: rgb(59, 58, 58);
   --main-shadow-color: rgba(0, 0, 0, 0.3);
+  --main-red: red;
+  --main-green: green;
+  --main-blue: #75b8e6;
+  --main-white: white;
 }
 h1,
 h2,
